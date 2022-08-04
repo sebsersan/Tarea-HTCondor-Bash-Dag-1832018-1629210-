@@ -1,0 +1,10 @@
+executable = descargar.sh
+
+output = output.$(cluster).$(process).submit
+error = error.$(cluster).$(process).submit
+log = log.$(cluster).$(process).submit
+
+should_transfer_files = yes
+
+queue
+

@@ -1,0 +1,11 @@
+executable = /usr/bin/wc
+arguments = -l
+
+input = asimovtale.txt
+output = output.$(process).submit
+error = error.submit
+log = log.submit
+
+should_transfer_files = yes
+
+queue

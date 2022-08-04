@@ -1,0 +1,1 @@
+Cantidad de personas Black que tienen un Income superior a 50k: 3124

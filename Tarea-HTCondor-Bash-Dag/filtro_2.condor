@@ -1,0 +1,11 @@
+executable = filtro_2.sh
+arguments = datos-adultos-us.csv
+
+transfer_input_files = datos-adultos-us.csv
+
+output = output.$(cluster).$(process).submit
+error = error.$(cluster).$(process).submit
+log = log.$(cluster).$(process).submit
+
+queue
+

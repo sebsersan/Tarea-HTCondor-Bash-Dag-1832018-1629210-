@@ -1,0 +1,9 @@
+executable = misc.sh
+
+output = output.$(cluster).$(process).submit
+error = error.$(cluster).$(process).submit
+log = log.submit
+
+should_transfer_files = yes
+
+queue 8

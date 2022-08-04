@@ -1,0 +1,13 @@
+executable   = readf
+arguments    = demo.txt
+
+transfer_input_files = demo.txt
+
+output       = output.submit
+error        = error.submit
+log          = log.submit
+
+should_transfer_files = yes
+
+queue
+
